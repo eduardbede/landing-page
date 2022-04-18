@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #1F2937;
+    padding: 1em 13em;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.left{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right{
+    color: #E5e7eb;
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+}
+
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12em;
+    padding-top: 8em;
+    padding-bottom: 5em;
+}
+
+.primul{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9F1F8;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.doiul{
+    font-size: 18px;
+    color: #E5e7eb;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.stanga{
+    margin: 0;
+    padding: 0;
+}
+
+.dreapta{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+    background: grey;
+}
+
+.buton{
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+}
+
+main{
+    background-color: white;
+    padding: 1em 13em;
+
+}
+
+.some{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 3em;
+}
+
+.square{
+    display: flex;
+    justify-content: space-around;
+}
+
+.patrat{
+    border: 5px solid rgb(19, 160, 216);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.item{
+    flex-direction: column ;
+    display: flex;
+    align-items: center;
+}
+
+.paragraf{
+    text-align: center;
+    padding: 0 3em 0 3em;
+    
+}
+
+
+.quotes{
+    background-color: #e5e7eb;
+    padding: 1em 25em;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.thor{
+    text-align: right;
+    padding-right: 5em;
+    font-size: large;
+    font-weight: bold;
+}
+
+footer{
+    background-color:   #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
